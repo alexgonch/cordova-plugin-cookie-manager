@@ -21,7 +21,7 @@
     </engines>
 
     <js-module src="www/cookie_manager.js" name="cookieManager">
-        <clobbers target="cookieManager" />
+        <clobbers target="cordova.plugins.cookieManager" />
     </js-module>
 
     <!-- iOS -->
